@@ -1,0 +1,26 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export ABBR_TIPS_PROMPT:\x5cn\U0001f4a1\x20\x5ce\x5b1m\x7b\x7b\x20\x2eabbr\x20\x7d\x7d\x5ce\x5b0m\x20\x3d\x3e\x20\x7b\x7b\x20\x2ecmd\x20\x7d\x7d
+SETUVAR --export ABBR_TIPS_REGEXES:\x28\x5e\x28\x5cw\x2b\x5cs\x2b\x29\x2b\x28\x2d\x7b1\x2c2\x7d\x29\x5cw\x2b\x29\x28\x5cs\x5cS\x2b\x29\x1e\x28\x5e\x28\x5cs\x3f\x28\x5cw\x2d\x3f\x29\x2b\x29\x7b3\x7d\x29\x2e\x2a\x1e\x28\x5e\x28\x5cs\x3f\x28\x5cw\x2d\x3f\x29\x2b\x29\x7b2\x7d\x29\x2e\x2a\x1e\x28\x5e\x28\x5cs\x3f\x28\x5cw\x2d\x3f\x29\x2b\x29\x7b1\x7d\x29\x2e\x2a
+SETUVAR ZO_CMD:zo
+SETUVAR Z_CMD:z
+SETUVAR Z_DATA:/home/reend/\x2elocal/share/z/data
+SETUVAR Z_DATA_DIR:/home/reend/\x2elocal/share/z
+SETUVAR Z_EXCLUDE:\x5e/home/reend\x24
+SETUVAR --export __ABBR_TIPS_KEYS:up\x1eff
+SETUVAR --export __ABBR_TIPS_VALUES:sudo\x20zypper\x20dup\x1efastfetch
+SETUVAR __fish_initialized:4300
+SETUVAR __fish_webconfig_theme_notification:set\x2dtheme\x2dv1\x2d\x231
+SETUVAR _fisher_alaz_2D_oz_2F_fish_2D_insulter_files:\x7e/\x2econfig/fish/conf\x2ed/insulter\x2efish
+SETUVAR _fisher_archelaus_2F_shell_2D_mommy_files:\x7e/\x2econfig/fish/conf\x2ed/mommy\x2efish
+SETUVAR _fisher_franciscolourenco_2F_done_files:\x7e/\x2econfig/fish/conf\x2ed/done\x2efish
+SETUVAR _fisher_gazorby_2F_fish_2D_abbreviation_2D_tips_files:\x7e/\x2econfig/fish/functions/__abbr_tips_bind_newline\x2efish\x1e\x7e/\x2econfig/fish/functions/__abbr_tips_bind_space\x2efish\x1e\x7e/\x2econfig/fish/functions/__abbr_tips_clean\x2efish\x1e\x7e/\x2econfig/fish/functions/__abbr_tips_init\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/abbr_tips\x2efish
+SETUVAR _fisher_halostatue_2F_fish_2D_docker_40_v1_2E_x_files:\x7e/\x2econfig/fish/conf\x2ed/halostatue_fish_docker\x2efish\x1e\x7e/\x2econfig/fish/completions/docker\x2dcompose\x2efish\x1e\x7e/\x2econfig/fish/completions/docker\x2efish
+SETUVAR _fisher_jethrokuan_2F_z_files:\x7e/\x2econfig/fish/functions/__z\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_add\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_clean\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_complete\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/z\x2efish
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_jorgebucaran_2F_humantime_2E_fish_files:\x7e/\x2econfig/fish/functions/humantime\x2efish
+SETUVAR _fisher_laughedelic_2F_fish__logo_files:\x7e/\x2econfig/fish/functions/fish_logo\x2efish\x1e\x7e/\x2econfig/fish/completions/fish_logo\x2efish
+SETUVAR _fisher_magenta404_2F_natural_2D_selection_files:\x7e/\x2econfig/fish/functions/_natural_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_begin_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_end_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_get_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_is_selecting\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_kill_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_replace_selection\x2efish\x1e\x7e/\x2econfig/fish/functions/_natural_selection_wrap_selection\x2efish
+SETUVAR _fisher_paysonwallach_2F_fish_2D_you_2D_should_2D_use_files:\x7e/\x2econfig/fish/functions/__ysu__check_aliases\x2efish\x1e\x7e/\x2econfig/fish/functions/__ysu__check_git_aliases\x2efish\x1e\x7e/\x2econfig/fish/functions/__ysu__check_hardcore\x2efish\x1e\x7e/\x2econfig/fish/functions/__ysu__flush_buffer\x2efish\x1e\x7e/\x2econfig/fish/functions/__ysu__get_field\x2efish\x1e\x7e/\x2econfig/fish/functions/__ysu__message\x2efish\x1e\x7e/\x2econfig/fish/functions/__ysu__set_default\x2efish\x1e\x7e/\x2econfig/fish/functions/__ysu__set_field\x2efish\x1e\x7e/\x2econfig/fish/functions/__ysu__write_buffer\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/you_should_use\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejethrokuan/z\x1egazorby/fish\x2dabbreviation\x2dtips\x1epaysonwallach/fish\x2dyou\x2dshould\x2duse\x1elaughedelic/fish_logo\x1emagenta404/natural\x2dselection\x1ehalostatue/fish\x2ddocker\x40v1\x2ex\x1ejorgebucaran/humantime\x2efish\x1ealaz\x2doz/fish\x2dinsulter\x1earchelaus/shell\x2dmommy\x1efranciscolourenco/done
+SETUVAR _fisher_upgraded_to_4_4:\x1d
