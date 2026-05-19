@@ -8,5 +8,13 @@ abbr -a up "sudo zypper dup --no-recommends"
 abbr -a ff "fastfetch"
 abbr -a op "sudo"
 abbr -a in "sudo zypper install"
-abbr -a mpeg "ffmpeg -i input.mp4 -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a pcm_s16le output.mov"
+abbr -a mpeg "ffmpeg -i 1.mp4 -c:v dnxhd -profile:v dnxhr_lb -pix_fmt yuv420p -c:a pcm_s16le o1.mov"
 abbr -a c "clear"
+abbr -a fishconf "sudo nano .config/fish/config.fish"
+abbr -a lazydocker "cd /home/reend/.local/bin/ && sudo ./lazydocker"
+abbr -a flatpeak "sudo flatpak update"
+abbr -a waypipetest "waypipe ssh reend@192.168.1.135 sway"
+abbr -a waypipessh "waypipe ssh reend@192.168.1.135"
+
+# opencode
+fish_add_path /home/reend/.opencode/bin
