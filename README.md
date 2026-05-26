@@ -13,7 +13,7 @@ Mine personal dotfiles for general apps and configs. It includes:
 ```
 git clone https://github.com/Reend21/dotfiles
 cd dotfiles
-sudo chmod + x install.sh
+sudo chmod +x install.sh
 ./install.sh
 ```
 
