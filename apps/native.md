@@ -18,9 +18,6 @@ git
 gnome-boxes
 gnome-builder
 helvum
-java-17-openjdk
-java-21-openjdk
-kitty
 librewolf
 lua
 lutris
@@ -34,3 +31,8 @@ steam
 vlc
 waypipe
 wireshark
+discord
+sudo rpm --import https://repo.librewolf.net/pubkey.gpg && sudo zypper ar -ef https://repo.librewolf.net librewolf && sudo zypper ref && sudo zypper in librewolf
+openrgb
+
+/ananicy cpp

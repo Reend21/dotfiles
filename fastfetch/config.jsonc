@@ -16,7 +16,7 @@
         "break",
         {
             "type": "custom",
-            "format": "\u001b[90m┌──────────────────────donanım──────────────────────┐"
+            "format": ">>>donanım"
         },
         {
             "type": "host",
@@ -50,7 +50,7 @@
         "break",
         {
             "type": "custom",
-            "format": "\u001b[90m┌──────────────────────yazılım──────────────────────┐"
+            "format": ">>>yazılım"
         },
         {
             "type": "custom",
@@ -106,7 +106,7 @@
         "break",
         {
             "type": "custom",
-            "format": "\u001b[90m┌────────────────────yıl bilgileri────────────────────┐"
+            "format": ">>>yıl"
         },
         {
             "type": "command",
