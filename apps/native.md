@@ -74,4 +74,4 @@ flatpak install -y flathub com.github.tchx84.Flatseal com.mattjakeman.ExtensionM
 - `io.github.kukuruzka165.materialgram` - Material design Telegram
 - `io.github.pol_rivero.github-desktop-plus` - GitHub Desktop+
 - `org.gnome.World.Iotas` - Journal app
-
+- `io.gitlab.adhami3310.Converter` - Switcheroo
