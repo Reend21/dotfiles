@@ -54,7 +54,7 @@ sudo pacman -S --needed vscodium cava chromium docker docker-compose earlyoom fa
 
 # Flatpak Apps
 
-## One-Line Install Commands
+## One-Line Install Command
 ```bash
 flatpak install -y flathub com.github.tchx84.Flatseal com.mattjakeman.ExtensionManager com.protonvpn.www de.haeckerfelix.Fragments dev.bragefuglseth.Keypunch io.github.alainm23.planify io.gitlab.theevilskeleton.Upscaler net.davidotek.pupgui2 org.localsend.localsend_app org.onlyoffice.desktopeditors in.cinny.Cinny io.github.kukuruzka165.materialgram io.github.pol_rivero.github-desktop-plus org.gnome.World.Iotas
 ```
