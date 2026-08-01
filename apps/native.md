@@ -49,6 +49,9 @@ sudo pacman -S --needed vscodium cava chromium docker docker-compose earlyoom fa
 - antigravity-manager
 - davinci-resolve
 - thunderbird
+- cinny
+- virt-manager
+- openrgb
 
 ---
 
