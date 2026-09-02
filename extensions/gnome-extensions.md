@@ -1,0 +1,10 @@
+- User Themes
+- AppIndicator and KStatusNotiferItem Support
+- Blur my Shell
+- Caffeine
+- Gnome Clipboard
+- Just Perfection
+- Medialine
+- RebootToUEFI
+- Space Bar
+- Tophat
