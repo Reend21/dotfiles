@@ -1,137 +1,122 @@
+
+
+//   _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
+//  |   __|     |__   | | | |   __|   __| | | |   --|     |
+//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  HYPRLAND
+//
+//  by Bina
+
+
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
-    
     "logo": {
-        "source": "/home/reend/.config/fastfetch/ascii.txt",
         "type": "file",
-        "color": {
-            "1": "green"
-        },
+        "source": "~/.config/fastfetch/ascii.txt",
         "padding": {
-            "top": 1,
-            "left": 1   
-      }
+            "top": 2
+        }
+    },
+    "display": {
+        "separator": " "
     },
     "modules": [
-        "break",
-        {
+	{
             "type": "custom",
-            "format": ">>>donanım"
+            "format": "\u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m"
         },
-        {
-            "type": "host",
-            "key": "󰌢  PC",
-            "keyColor": "green"
-        },
-        {
-            "type": "cpu",
-            "key": "│ ├󰻠 ",
-            "keyColor": "green"
-        },
-        {
-            "type": "gpu",
-            "key": "│ ├󰍹 ",
-            "keyColor": "green"
-        },
-        {
-            "type": "memory",
-            "key": "│ ├󰑭 ",
-            "keyColor": "green"
-        },
-        {
-            "type": "disk",
-            "key": "└ └󰋊 ",
-            "keyColor": "green"
-        },
-        {
-            "type": "custom",
-            "format": "<<<"
+	"break",
+	{
+            "type": "title",
+            "keyWidth": 10
         },
         "break",
         {
-            "type": "custom",
-            "format": ">>>yazılım"
+            "type": "os",
+            "key": " ",
+            "keyColor": "34",  // = color4
         },
         {
-            "type": "custom",
-            "key": "  OS",
-            "keyColor": "yellow",
-            "format": "döngele" 
-        },  
-        {
-            "type": "bios",
-            "key": "│ ├󰖡 ",
-            "keyColor": "yellow"
+            "type": "kernel",
+            "key": " ",
+            "keyColor": "34",
         },
         {
             "type": "packages",
-            "key": "│ ├󰏗 ",
-            "keyColor": "yellow"
+            "format": "{} (zypper)",
+            "key": " ",
+            "keyColor": "34",  
         },
         {
             "type": "shell",
-            "key": "└ └󰞷 ",
-            "keyColor": "yellow"
-        },
-        "break",
-        {
-            "type": "de",
-            "key": "󰧨  DE",
-            "keyColor": "blue"
-        },
-        {
-            "type": "lm",
-            "key": "│ ├󰍁 ",
-            "keyColor": "blue"
-        },
-        {
-            "type": "wm",
-            "key": "│ ├󱂬 ",
-            "keyColor": "blue"
-        },
-        {
-            "type": "wmtheme",
-            "key": "│ ├󰉦 ",
-            "keyColor": "blue"
+            "key": " ",
+            "keyColor": "34", 
         },
         {
             "type": "terminal",
-            "key": "└ └󰆍 ",
-            "keyColor": "blue"
+            "key": " ",
+            "keyColor": "34", 
         },
         {
-            "type": "custom",
-            "format": "<<<"
+            "type": "wm",
+            "key": " ",
+            "keyColor": "34", 
+        },
+        {
+            "type": "display",
+            "key": " ",
+            "keyColor": "34"
+        },
+        {
+            "type": "cpu",
+            "format": "{1}",
+            "key": " ",
+            "keyColor": "34"
+        },
+        {
+            "type": "gpu",
+            "format": "{2}",
+            "key": " ",
+            "keyColor": "34"
+        },
+        {
+            "type": "gpu",
+            "format": "{3}",
+            "key": " ",
+            "keyColor": "34"
+        },
+        {
+             "type": "memory",
+            "key": "﬙ ",
+            "keyColor": "34"
+        },
+        {
+             "type": "swap",
+            "key": "󰾴 ",
+            "keyColor": "34"
+        },
+        {
+            "type": "disk",
+            "key": " ",
+            "keyColor": "34"
+        },
+        {
+            "type": "uptime",
+            "key": " ",
+            "keyColor": "34", 
+        },
+        {
+            "type": "command",
+            "key": "󱦟 ",
+            "keyColor": "34",
+            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
         },
         "break",
         {
             "type": "custom",
-            "format": ">>>yıl"
+            "format": "\u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m"
         },
-        {
-            "type": "command",
-            "key": "  ›  ömür  ",
-            "keyColor": "magenta",
-            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
-        },
-        {
-            "type": "uptime",
-            "key": "  ›  kaç saattir çalışıyo  ",
-            "keyColor": "magenta"
-        },
-        {
-            "type": "datetime",
-            "key": "  ›  tarih  ",
-            "keyColor": "magenta"
-        },
-        {
-            "type": "custom",
-            "format": "<<<"
-        },
-        {
-            "type": "colors",
-            "paddingLeft": 2,
-            "symbol": "circle"
-        }
+        "break",
+        "break",
     ]
 }

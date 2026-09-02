@@ -1,57 +1,61 @@
 # Native Apps
 
-## One-Line Install Commands:
+## One-Line Install Commands
 
 ### zypper (openSUSE)
+
 ```bash
-sudo zypper install -y vscodium cava chromium docker docker-compose earlyoom fastfetch fish flatpak gamemode gamescope git librewolf lutris mangohud nodejs obs-studio os-prober starship steam vlc waypipe discord openrgb ananicy-cpp antigravity antigravity-manager davinci-resolve
+sudo zypper install -y docker docker-compose flatpak gamemode gamescope wine mangohud starship waypipe openrgb kitty fish librewolf vscodium obs-studio steam virt-manager lutris vlc cava fastfetch nano chromuim git nodejs discord gnome-tweaks opi
+
+### opi (openSUSE)
+
+```bash
+sudo opi -n install antigravity && sudo opi -n install vscodium && sudo opii -n install localsend
 ```
 
-### pacman (Arch)
+### Gnome debloat 
+
 ```bash
-sudo pacman -S --needed vscodium cava chromium docker docker-compose earlyoom fastfetch fish flatpak gamemode gamescope git librewolf lutris mangohud nodejs obs-studio os-prober starship steam vlc waypipe discord openrgb ananicy-cpp antigravity antigravity-manager davinci-resolve
+sudo zypper remove -y evolution gnome-backgrounds gnome-characters gnome-connections gnome-console gnome-contacts gnome-control-center-goa gnome-logs gnome-maps gnome-packagekit gnome-remote-desktop gnome-software gnome-system-monitor gnome-text-editor malcontent-control opensuse-welcome-launcher patterns-base-documentation patterns-gnome-gnome_games patterns-office-office libreoffice totem firefox
 ```
 
-### Notes
-- **LibreWolf (openSUSE Repo Setup):**
+### Librewolf repo setup
+
   ```bash
   sudo rpm --import https://repo.librewolf.net/pubkey.gpg && sudo zypper ar -ef https://repo.librewolf.net librewolf && sudo zypper ref && sudo zypper in librewolf
   ```
 
 ## Package List
 
-- vscodium
-- cava
-- chromium
 - docker
 - docker-compose
-- earlyoom
-- fastfetch
-- fish
 - flatpak
 - gamemode
 - gamescope
-- git
-- librewolf
-- lutris
+- wine
 - mangohud
-- nodejs
-- obs-studio
-- os-prober
 - starship
-- steam
-- vlc
 - waypipe
-- discord
 - openrgb
-- ananicy-cpp
-- antigravity
-- antigravity-manager
-- davinci-resolve
-- thunderbird
-- cinny
+- kitty
+- fish
+- librewolf
+- vscodium
+- obs-studio
+- steam
 - virt-manager
-- openrgb
+- antigravity
+- localsend
+- lutris
+- vlc
+- cava
+- fastfetch
+- nano
+- chromuim
+- git
+- nodejs
+- discord
+- gnome-tweaks
 
 ---
 
@@ -59,7 +63,7 @@ sudo pacman -S --needed vscodium cava chromium docker docker-compose earlyoom fa
 
 ## One-Line Install Command
 ```bash
-flatpak install -y flathub com.github.tchx84.Flatseal com.mattjakeman.ExtensionManager com.protonvpn.www de.haeckerfelix.Fragments dev.bragefuglseth.Keypunch io.github.alainm23.planify io.gitlab.theevilskeleton.Upscaler net.davidotek.pupgui2 org.localsend.localsend_app org.onlyoffice.desktopeditors in.cinny.Cinny io.github.kukuruzka165.materialgram io.github.pol_rivero.github-desktop-plus org.gnome.World.Iotas
+flatpak install -y com.github.tchx84.Flatseal com.mattjakeman.ExtensionManager com.protonvpn.www de.haeckerfelix.Fragments dev.bragefuglseth.Keypunch io.github.alainm23.planify io.gitlab.theevilskeleton.Upscaler net.davidotek.pupgui2 org.onlyoffice.desktopeditors in.cinny.Cinny io.github.kukuruzka165.materialgram io.github.pol_rivero.github-desktop-plus org.gnome.World.Iotas io.gitlab.adhami3310.Converter ai.lmstudio.lm-studio net.ankiweb.Anki org.gnome.World.Iotas
 ```
 
 ## Package List
@@ -72,10 +76,12 @@ flatpak install -y flathub com.github.tchx84.Flatseal com.mattjakeman.ExtensionM
 - `io.github.alainm23.planify` - Planning and note taking app
 - `io.gitlab.theevilskeleton.Upscaler` - Image Upscaler
 - `net.davidotek.pupgui2` - Proton installer
-- `org.localsend.localsend_app` - Localsend
 - `org.onlyoffice.desktopeditors` - ONLYOFFICE
 - `in.cinny.Cinny` - Matrix Client
 - `io.github.kukuruzka165.materialgram` - Material design Telegram
 - `io.github.pol_rivero.github-desktop-plus` - GitHub Desktop+
 - `org.gnome.World.Iotas` - Journal app
 - `io.gitlab.adhami3310.Converter` - Switcheroo
+- `ai.lmstudio.lm-studio` - lmstudio
+- `net.ankiweb.Anki` - Anki
+- `org.gnome.World.Iotas` - Iotas journal
